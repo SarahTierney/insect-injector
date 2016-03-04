@@ -7,19 +7,28 @@ var insects = [
     family: 'Carabidae',
     size: [6, 20],
     food: {
-      eatsDung: true,
+      eatsDung: false,
+      eatsInsects: true,
       eatsPlants: false,
-      eatsInsects: false,
     }
     {
       name: 'Dung Beetle',
       img: 'dung-beetle.jpg',
-      family: 'Carabidae',
+      family: 'Scarabidae',
       size: [20, 30],
       food: {
+        eatsInsects: false,
         eatsDung: true,
         eatsPlants: false,
+      }
+      name: 'Stag Beetle',
+      img: 'stag-beetle.jpg',
+      family: 'Lucanidae',
+      size: [5, 120],
+      food: {
         eatsInsects: false,
+        eatsDung: false,
+        eatsPlants: true,
       }
 
   },
