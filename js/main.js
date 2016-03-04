@@ -30,6 +30,15 @@ var insects = [
         eatsDung: false,
         eatsPlants: true,
       }
+      name: 'Tortoise Beetle',
+      img: 'tortoise-beetle.jpg',
+      family: 'Cassidinae',
+      size: [1, 18],
+      food: {
+        eatsInsects: false,
+        eatsDung: false,
+        eatsPlants: true,
+      }
 
   },
 ]
